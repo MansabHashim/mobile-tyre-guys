@@ -23,3 +23,47 @@ a{
 a:hover{
   color :var(--secondary);
 }
+
+h1{
+  color: var(--secondary);
+  font-size: 4rem;
+  line-height:  1.2;
+  font-weight: 800;
+}
+h2{
+  color: var(--lighter);
+  font-size: large;
+  line-height: 1px;
+  font-weight: 600;
+}
+
+p{
+  color: var(--lighter);
+}
+
+span{
+  color: var(--primary);
+}
+
+#learn:hover .learnmore{
+  color: var(--darker);
+}
+
+#btn>.a:hover{
+  color: var(--darker) ;
+}
+
+#btn:hover .btn{
+  color: var(--darker);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size:30px;
+  }
+  
+}
+

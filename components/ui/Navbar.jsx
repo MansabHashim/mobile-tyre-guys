@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { FaAlignJustify } from "react-icons/fa";
+import Btn from './Btn'
 
 
 const Navbar = () => {
@@ -22,10 +23,10 @@ const Navbar = () => {
         </ul>
        <div onClick={()=>setmenu(!menu) } className='md:hidden text-lighter cursor-pointer text-4xl'> <FaAlignJustify />
        </div>
-        <div className='bg-primary rounded-full px-7 py-2'> <a href="">909 202 20001</a></div>
+       <Btn/>
     </div>
-    <div className='md:hidden'>
-    {menu && <ul className='flex flex-wrap  justify-center items-center  gap-6 bg-primary rounded-full px-7 py-2' >
+    <div className='md:hidden mb-12'>
+    {menu && <ul className='mobile-menu flex flex-wrap  justify-center items-center  gap-6 bg-primary  rounded-full px-7 py-2' >
            <Link href='/'>    <li>Home</li>    </Link>
            <Link href='/about'>    <li>About</li>    </Link>
            <Link href='/services'>    <li>Services</li>    </Link>
