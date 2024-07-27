@@ -5,10 +5,10 @@ import Link from 'next/link'
 const states = () => {
   return (
     <div>
-       <div className=" grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-5 justify-start p-5">
+       <div className=" flex gap-5 flex-wrap justify-start p-5">
       {data.states.map((state, index) => (
         <div key={index} className="state bg-red-500 rounded-lg p-5">
-          <Link href={`/states/${state.name}`}>
+          <Link href={`/${state.name}`}>
           <h2 className=' font-mono text-2xl text-black font-bold'>{state.name}</h2>
           </Link>
           <p>Capital: {state.capital}</p>
