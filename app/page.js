@@ -1,13 +1,13 @@
 import React from 'react'
-import states from '@/components/ui/States'
+// import states from 'components/ui/States'
 import Home from '@/components/Home'
-import navbar from '@/components/ui/Navbar'
+// import navbar from '@/components/ui/Navbar'
 
 
 const page = () => {
   return (
     <div>
-      <navbar/>
+      {/* <navbar/> */}
       <h1>All states of US</h1>
       <Home/>
     </div>
