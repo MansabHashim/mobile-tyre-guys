@@ -19,6 +19,7 @@ const Page = ({params}) => {
         });
         const data = await response.json();
         setData(data.results); // Assuming data.results contains the array of areas
+        console.log(data);
       } catch (error) {
         setError(error);
       } finally {
