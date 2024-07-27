@@ -6,7 +6,7 @@ import Navbar from '@/components/ui/Navbar'
 const page = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <h1>All states of US</h1>
       <Home/>
     </div>
