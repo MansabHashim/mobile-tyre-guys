@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-// import { FaAlignJustify } from "react-icons/fa";
+import { FaAlignJustify } from "react-icons/fa";
 import Btn from "./Btn";
 
 const Navbar = () => {
@@ -40,7 +40,7 @@ const Navbar = () => {
           className="md:hidden text-lighter  cursor-pointer text-4xl"
         >
           {" "}
-          {/* <FaAlignJustify /> */} <h2>NAV</h2>
+          <FaAlignJustify />
         </div>
         <Btn />
       </div>
