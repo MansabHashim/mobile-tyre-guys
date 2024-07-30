@@ -1,12 +1,12 @@
 
 import React from 'react'
-import Navbar from '@/components/ui/Navbar'
+// import Navbar from '@/components/ui/Navbar'
 import Hero from '@/components/ui/Hero'
 import Subhero from '@/components/ui/Subhero'
 import ServicesHome from '@/components/ui/ServicesHome'
 import Prices from '@/components/ui/Prices'
 import Faq from '@/components/ui/Faq'
-import States from '@/components/ui/States.jsx'
+import States from '@/components/ui/States'
 import Cta from '@/components/ui/Cta'
 import Footer from '@/components/ui/Footer'
 
