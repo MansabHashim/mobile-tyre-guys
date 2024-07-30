@@ -1,7 +1,7 @@
 import React from "react";
 import Btn from "./Btn";
 import LearnMore from "./LearnMore";
-import { FaDotCircle } from "react-icons/fa";
+// import { FaDotCircle } from "react-icons/fa";
 
 const Subhero = () => {
   return (
@@ -23,7 +23,7 @@ const Subhero = () => {
               {" "}
               <i className="text-primary">
                 {" "}
-                <FaDotCircle />
+                {/* <FaDotCircle /> */}
               </i>{" "}
               24x7 LIVE On-Call Support
             </li>
@@ -31,7 +31,7 @@ const Subhero = () => {
               {" "}
               <i className="text-primary">
                 {" "}
-                <FaDotCircle />
+                {/* <FaDotCircle /> */}
               </i>{" "}
               Transparent & Affordable Price{" "}
             </li>
@@ -39,7 +39,7 @@ const Subhero = () => {
               {" "}
               <i className="text-primary">
                 {" "}
-                <FaDotCircle />
+                {/* <FaDotCircle /> */}
               </i>{" "}
               Damage-Free Towing{" "}
             </li>
@@ -47,7 +47,7 @@ const Subhero = () => {
               {" "}
               <i className="text-primary">
                 {" "}
-                <FaDotCircle />
+                {/* <FaDotCircle /> */}
               </i>{" "}
               Quick Response Time and Prompt Service{" "}
             </li>
@@ -55,7 +55,7 @@ const Subhero = () => {
               {" "}
               <i className="text-primary">
                 {" "}
-                <FaDotCircle />
+                {/* <FaDotCircle /> */}
               </i>{" "}
               Experienced and Trained Operators{" "}
             </li>
