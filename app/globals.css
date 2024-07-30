@@ -9,6 +9,14 @@
   --darker: #222;
 }
 
+hr{
+  color: var(--lighter);
+  border: 1; /* Remove default border */
+  background-color: #3498db; /* Set the color of the <hr> */
+  width: 100%; /* Set the width of the <hr> */
+  /* margin: 12px auto; */
+}
+
 
 body{
  background-color:var(--darker);

@@ -34,14 +34,15 @@ const Page = ({params}) => {
   if (error) return <div>Error: {error.message}</div>;
 
   return (
-    <div>
-      <h2 className='text-center font-bold text-5xl my-5'>All the counties in <span className=' text-orange-500'>{state}</span> state </h2>
-      <div className='grid lg:grid-cols-6 md:grid-cols-4 grid-cols-2 flex-wrap justify-evenly gap-5'>
+    <div className=' flex  flex-col items-center justify-center m-5 gap-5'>
+      <h2 className='text-center font-bold text-5xl my-5'>All the counties in <span className=' text-primary'>{state.replace(/%20/g, ' ')}</span> state </h2>
+      <div className='grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 flex-wrap justify-evenly gap-x-5'>
       {data.map((item, index) => (
-        (item.state === state &&
-       <div className=' bg-red-200 flex w-fit gap-1 m-5 p-4 rounded-e-full'>
-         <h2 key={index}>{item.countyName}</h2>
-         <h2 key={index}>{item.state}</h2>
+        (item.state === state.replace(/%20/g, ' ') &&
+       <div className=' bg-secondary text-black  gap-3 m- p-5 '>
+         <h2 key={index} className='text-wrap text-black leading-5'>{item.countyName}</h2>
+         <hr className=' mt-3' />
+         {/* <h2 key={index}>{item.state}</h2> */}
        </div>)
       ))}
     </div>

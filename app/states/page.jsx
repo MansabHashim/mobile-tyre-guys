@@ -1,7 +1,7 @@
 import React from 'react'
 import data from '@/data/data'
 import Link from 'next/link'
-import States from '@/components/Home'
+import States from '@/components/ui/States'
 
 const states = () => {
   return (

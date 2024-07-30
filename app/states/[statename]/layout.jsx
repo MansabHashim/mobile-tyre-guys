@@ -1,5 +1,5 @@
 import react from "react";
-import States from "/components/Home.jsx";
+import States from "@/components/ui/States";
 
 
 export default function RootLayout({ children }) {
