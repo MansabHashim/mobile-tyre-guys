@@ -1,5 +1,5 @@
+import Home from "@/components/Home";
 import react from "react";
-import States from "@/components/ui/States";
 
 
 export default function RootLayout({ children }) {
@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
       <body >
         <h2>This is layout page</h2>
         {children}
-        <States/>
+        <Home/>
         </body>
     </html>
   );
