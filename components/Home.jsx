@@ -1,10 +1,11 @@
 import React from 'react'
-import States from './ui/States'
+// import States from './ui/States'
 
 const Home = () => {
   return (
     <div>
-        <States/>
+      <h1>Here will be states</h1>
+        {/* <States/> */}
     </div>
   )
 }
