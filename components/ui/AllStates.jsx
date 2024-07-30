@@ -1,6 +1,6 @@
 import React from 'react'
 import Link  from 'next/link'
-import data from './data'
+import data from '@/data/data'
 
 const AllStates = () => {
   return (
