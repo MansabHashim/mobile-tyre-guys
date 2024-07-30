@@ -1,7 +1,8 @@
+
 import React from 'react'
 import data from '@/data/data'
 import Link from 'next/link'
-import States from '@/components/ui/States'
+import States from '@/components/ui/States.jsx'
 
 const states = () => {
   return (
