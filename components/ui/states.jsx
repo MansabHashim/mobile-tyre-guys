@@ -2,7 +2,7 @@ import React from 'react'
 import data from '@/data/data'
 import Link from 'next/link'
 
-const states = () => {
+const States = () => {
   return (
     <div className='md:mx- w-[100%] flex flex-col items-center justify-center'>
       <h1 className='text-lighter my-5'><span>States</span> we serve in</h1>
@@ -28,4 +28,4 @@ const states = () => {
   )
 }
 
-export default states
+export default States
