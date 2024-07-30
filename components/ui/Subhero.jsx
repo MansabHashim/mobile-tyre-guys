@@ -5,7 +5,7 @@ import { FaDotCircle } from "react-icons/fa";
 
 const Subhero = () => {
   return (
-    <div className="hero bg-gray-700 h-fit p-5 md:py-24 py-12 my-5 items-center justify-center flex flex-col gap-12">
+    <div className="hero bg-gray-700 h-fit p-5 mt-24 md:py-24 py-12 my-5 items-center justify-center flex flex-col gap-12">
       <div className="flex  w-full justify-center  gap-5 flex-col md:flex-row  items-center">
         <div className="md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5">
           <h2 className=" text-secondary">Mobile Tyre Guys</h2>

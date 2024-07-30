@@ -5,7 +5,7 @@ const Btn = (props) => {
   return (
     <div
       id="btn"
-      className="bg-primary hover:bg-secondary hover:text-darker flex items-center gap-2 justify-between btn w-fit rounded-full px-7 py-2"
+      className="bg-primary hover:bg-secondary hover:text-darker flex items-center gap-2 justify-between btn w-fit rounded-full px-7 py-3"
     >
       <FaPhoneAlt />{" "}
       <a href="" className="btn">

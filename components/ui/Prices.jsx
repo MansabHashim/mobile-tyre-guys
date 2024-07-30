@@ -17,11 +17,11 @@ const Prices = () => {
           <p className='text-lg'>If you are looking for a reliable towing and roadside assistance operator, then we are here to help 24/7. Contact us now to get a quote for your service.</p>
       <div className=' grid grid-cols-2 grid-rows-2 lg:gap-5 gap-2'>
         <div className='flex flex-col gap-3 p-5 border-amber-100 border rounded-md  '>
-            <h2 className='lg:text-5xl md:text-3xl text-3xl  font-extrabold text-primary'>11</h2>
+            <h2 className='lg:text-5xl md:text-3xl text-3xl  font-extrabold text-primary'>2+</h2>
             <p className=' text-lg'>Years of Experience</p>
         </div>
         <div className='flex flex-col gap-3 p-5 border-amber-100 border rounded-md  '>
-            <h2 className='lg:text-5xl md:text-3xl text-3xl  font-extrabold text-primary'>2+</h2>
+            <h2 className='lg:text-5xl md:text-3xl text-3xl  font-extrabold text-primary'>20+</h2>
             <p className=' text-lg'>Customers Assisted per month            </p>
         </div>
         <div className='flex flex-col gap-3 p-5 border-amber-100 border rounded-md  '>
