@@ -1,12 +1,12 @@
 import React from 'react'
 import data from '@/data/data'
 import Link from 'next/link'
-import States from './ui/States'
+// import States from './ui/States'
 
 const states = () => {
   return (
     <div>
-      <States/>
+      {/* <States/> */}
     </div>
   )
 }

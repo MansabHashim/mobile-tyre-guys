@@ -1,7 +1,7 @@
 import React from 'react'
 import Btn from './Btn'
 import LearnMore from './LearnMore'
-import { FaDotCircle } from 'react-icons/fa'
+// import { FaDotCircle } from 'react-icons/fa'
 import EachService from './EachService'
 
 const ServicesHome = () => {

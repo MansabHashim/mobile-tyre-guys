@@ -8,7 +8,7 @@ const Hero = () => {
     <div  className='flex hero h-[70vh] my-5 w-full justify-center  gap-5 flex-col md:flex-row  items-center'>
        
        
-        <div className='md:w-[50%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5'>
+        <div className='md:w-[50%] md:items-start mt-12 items-center md:justify-start justify-center flex flex-col gap-5'>
             <h2 className=' text-secondary'>24 HOURS x 7 DAYs A WEEK
             </h2>
             <h1 className=' text-lighter text-center lg:text-[4em] md:text-start md:text-5xl'>Emergency <span>Roadside Help</span>, Towing, and Rescue</h1>
