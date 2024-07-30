@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import data from './Data'
+import data from './data'
 const States = () => {
   return (
         <div className='md:mx- w-[100%] flex flex-col items-center justify-center'>
