@@ -19,6 +19,20 @@ const Hero = () => {
         </div>
 
         </div>
+
+{/* 
+<div className="video-responsive m-5">
+    <iframe
+      width="553"
+      height="380"
+      src={`https://www.youtube.com/embed/${2}`}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      autoplay='true'
+      title="Embedded youtube"
+    />
+  </div> */}
+
         <div className='w-[300px] '><img src="https://cdn.pixabay.com/photo/2013/07/12/14/16/tire-148121_1280.png" alt="" /></div>
     </div>
   )

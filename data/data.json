@@ -108,7 +108,7 @@
         "number_of_counties": 159,
         "state_zip_code": "300xx-319xx",
         "state_abbreviation": "GA",
-        "state_flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Flag_of_Georgia.svg/1280px-Flag_of_Georgia.svg.png"
+        "state_flag": "/georgiaFlag.jpg"
       },
       {
         "name": "Hawaii",

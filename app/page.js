@@ -7,7 +7,7 @@ import ServicesHome from '@/components/ui/ServicesHome'
 import Prices from '@/components/ui/Prices'
 import Faq from '@/components/ui/Faq'
 import Cta from '@/components/ui/Cta'
-import Footer from '@/components/ui/Footer'
+// import Footer from '@/components/ui/Footer'
 import Home from '@/components/Home'
 
 
@@ -22,7 +22,7 @@ const page = () => {
       <Home/>
       <Faq/>
       <Cta/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

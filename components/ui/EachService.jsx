@@ -39,7 +39,7 @@ const EachService = () => {
           <h2 className="text-xl text-darker font-semibold mb-2">{service.name}</h2>
           <p className="text-gray-700 mb-4">{service.description}</p>
           <a
-            href="#"
+            href="/services"
             className="text-blue-500 hover:underline"
           >
             {service.call_to_action}
