@@ -2,7 +2,7 @@ import React from 'react';
 
 const CityMap = ({ cityName }) => {
   // Replace with your actual Google Maps API key
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY; 
+  const apiKey = "AIzaSyDoVprz0hQONMjOwyXbwaj7Qfi3KWzE74w"; 
   const encodedCity = encodeURIComponent(cityName);
   const mapUrl = `https://www.google.com/maps/embed/v1/place?q=${encodedCity}&key=${apiKey}`;
 
