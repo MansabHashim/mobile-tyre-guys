@@ -1,18 +1,31 @@
 import React from 'react'
 import Btn from './Btn'
 import LearnMore from './LearnMore'
+import YouTubeEmbed from './YoutubeEmbed'
+import TypEffect from './TypEffect'
+
 
 const Hero = () => {
 
   return (          
-    <div  className='flex hero h-[70vh] my-5 w-full justify-center  gap-5 flex-col md:flex-row  items-center'>
+    <div  className=' flex hero h-[70vh] my-5 w-full justify-center  gap- flex-col md:flex-row  items-center'>
        
        
-        <div className='md:w-[50%] md:items-start mt-12 items-center md:justify-start justify-center flex flex-col gap-10'>
-            <h2 className=' text-secondary'>24 HOURS x 7 DAYs A WEEK
+        <div className='zoomIn md:w-[50%] md:items-start mt-12 items-center md:justify-start justify-center flex flex-col gap-5'>
+            <h2 className='typehead text-secondary'>24 HOURS x 7 DAYs A WEEK
             </h2>
             <h1 className=' text-lighter text-center lg:text-[4em] md:text-start md:text-5xl'>Emergency <span>Roadside Help</span>, Towing, and Rescue</h1>
-            <p className='text-lg'>Always Here to Help When You Need Us Most</p>
+            {/* <p className='text-lg'>Always Here to Help When You Need Us Most</p> */}
+            <TypEffect/>
+
+
+<div>
+
+  
+</div>
+
+
+
         <div className='flex gap-5 items-center'>
         <Btn />
         <LearnMore/>
@@ -32,8 +45,12 @@ const Hero = () => {
       title="Embedded youtube"
     />
   </div> */}
+  {/* <div className='bg-white p- w-52'> <YouTubeEmbed/> </div> */}
+  <div> 
+    {/* <video src="tyre.mp4"></video> */}
+  </div>
 
-        <div className='w-[300px] '><img src="https://cdn.pixabay.com/photo/2013/07/12/14/16/tire-148121_1280.png" alt="" /></div>
+        <div className='w-[350px] '><img src="3d.gif" alt="" /></div>
     </div>
   )
 }

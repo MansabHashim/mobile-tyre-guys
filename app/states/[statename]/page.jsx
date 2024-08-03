@@ -1,11 +1,15 @@
 'use client'
+import CityMap from '@/components/ui/CityMap';
 import React, { useState, useEffect } from 'react';
+import LearnMore from '@/components/ui/LearnMore';
+import Btn from '@/components/ui/Btn';
+import Cities from '@/components/ui/Cities';
 
 const Page = ({params}) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [state, setstate] = useState(`${params.statename}`)
+  const [state, setstate] = useState(`${params.statename.replace(/%20/g, ' ')}`)
 
   useEffect(() => {
     // Define an async function to fetch data
@@ -34,8 +38,20 @@ const Page = ({params}) => {
   if (error) return <div>Error: {error.message}</div>;
 
   return (
-    <div className=' flex  flex-col items-center justify-center m-5 gap-5'>
-      <h2 className='text-center font-bold text-5xl my-5'>All the counties in <span className=' text-primary'>{state.replace(/%20/g, ' ')}</span> state </h2>
+    <div className=' flex  flex-col items-center justify-center p5 gap-5'>
+      <div className='flex gap-5 bg-gray-700 p-12 w-full flex-wrap justify-evenly'>
+      <div className='flex flex-col gap-5 pt-16 w-[40%]'>
+        <h2 className='text-start font-bold text-5xl my-5'><span className=' text-primary'>{state}</span> Towing & Roadside Assistance </h2>
+        <div className=' flex gap-5'>
+        <Btn/>
+        <LearnMore/>
+        </div>
+        </div>
+        <div className='w-[40%]'>
+        <CityMap className='w-32' cityName={state}/>
+        </div>
+      </div>
+      <h2 className='text-center font-bold text-5xl my-5'>All the counties in <span className=' text-primary'>{state}</span> state </h2>
       <div className='grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 flex-wrap justify-evenly gap-x-5'>
       {data.map((item, index) => (
         (item.state === state.replace(/%20/g, ' ') &&
@@ -46,6 +62,7 @@ const Page = ({params}) => {
        </div>)
       ))}
     </div>
+        <Cities/>
     </div>
   );
 };

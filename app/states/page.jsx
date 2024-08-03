@@ -2,11 +2,14 @@
 import React from 'react'
 import Link from 'next/link'
 import Home from '@/components/Home'
+import Cities from '@/components/ui/Cities'
 
 const states = () => {
   return (
     <div>
       <Home/>
+      <Cities/>
+
     </div>
   )
 }

@@ -66,11 +66,33 @@ const page = () => {
           "Ran out of gas? Can happen to anyone and this is where you need a reliable support partner."
         }
       />
+      <ActualServicesPage
+        imgsrc="https://img.freepik.com/free-photo/unlocking-car-door-with-key_53876-25010.jpg?t=st=1722685407~exp=1722689007~hmac=d50a1091a2af8e11fcf5e201bf7e0d69b96a2cbe8058f6654e09a80faa52daba&w=1060"
+        focus={"Car "}
+        heading={"  lockout"}
+        bg='bg-gray-00'
+        order='order-1'
+        para={
+          "Got locked out of your car? No worries give us a call and we’ll help out"
+        }
+      />
+      
+
+      <ActualServicesPage
+        imgsrc="https://img.freepik.com/free-photo/car-repairman-wearing-white-uniform-standing-holding-wrench-that-is-essential-tool-mechanic_1150-16588.jpg?t=st=1722685472~exp=1722689072~hmac=6992a5aef694b747f122fc988dcf7674e38aaa422e50b1affc63f5fd7d4bdb31&w=1060 "
+        focus={"Battery "}
+        heading={"Jump Start"}
+        bg='bg-gray-700'
+        order='order-0'
+        para={
+          "Is your car battery dead? We can help you out with a jumpstart to get you back on the road."
+        }
+      />
       
 
       <Home />
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
     </div>
   );
 };

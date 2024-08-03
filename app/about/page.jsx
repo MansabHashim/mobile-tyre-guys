@@ -12,7 +12,7 @@ const page = () => {
       <Choose/>
       <Home/>
       <Faq/>
-      <Cta/>
+      {/* <Cta/> */}
     </div>
   )
 }
