@@ -5,7 +5,7 @@ import Cities from '@/components/ui/Cities'
 const page = () => {
   return (
     <div>
-        <Cities/>
+        {/* <Cities/> */}
               <Home/>
 
     </div>

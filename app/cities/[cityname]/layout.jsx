@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
         <Navbar/>
         {/* <h2>This is layout page</h2> */}
         {children}
-        <Cities/>
+        {/* <Cities/> */}
         <Home/>
         </body>
     </html>

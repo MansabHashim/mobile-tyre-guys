@@ -91,7 +91,7 @@ const page = () => {
       
 
       <Home />
-      <Faq />
+      {/* <Faq /> */}
       {/* <Cta /> */}
     </div>
   );

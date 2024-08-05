@@ -5,13 +5,14 @@ const Btn = (props) => {
   return (
     <div
       id="btn"
-      className="bg-primary hover:bg-secondary hover:text-darker flex items-center gap-2 justify-between btn w-fit rounded-full px-7 py-3"
+      className="bg-secondary hover:bg-primary hover:text-darker border-secondary border-2 flex items-center gap-2 justify-between btn w-fit rounded-lg px-7 py-3"
     >
       <FaPhoneAlt />{" "}
       <a href="" className="btn">
         {" "}
         909 202 20001
       </a>
+      
     </div>
   );
 };

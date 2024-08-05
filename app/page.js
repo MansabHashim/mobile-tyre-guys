@@ -21,8 +21,8 @@ const page = () => {
       <ServicesHome/>
       <Prices/>
       <Home/>
-      <Cities/>
-      <Faq/>
+      {/* <Cities/> */}
+      {/* <Faq/> */}
       {/* <Cta/> */}
       {/* <Footer/> */}
     </div>

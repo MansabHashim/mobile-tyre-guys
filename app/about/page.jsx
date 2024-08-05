@@ -11,7 +11,7 @@ const page = () => {
       <AboutHero/>
       <Choose/>
       <Home/>
-      <Faq/>
+      {/* <Faq/> */}
       {/* <Cta/> */}
     </div>
   )

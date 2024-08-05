@@ -11,9 +11,9 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex bg-gray-700 w-full z-10 justify-between md:justify-evenly p-3 items-center text-whit">
+      <div className="flex bg-primary w-full z-10 justify-between md:justify-evenly p-3 items-center text-whit">
         <img className="w-28" src="/new-logo.png" alt="Logo" />
-        <ul className="md:flex hidden gap-6 border-primary border-2 text-lighter rounded-full px-7 py-2">
+        <ul className="md:flex hidden gap-6 border-secondary border-2 text-darker rounded-full px-7 py-2">
           <Link href="/">
             {" "}
             <li>Home</li>{" "}
