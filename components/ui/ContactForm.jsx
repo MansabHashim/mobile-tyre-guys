@@ -36,11 +36,19 @@ export default function ContactForm() {
         <h2 className=" text-darker text-center lg:text-[2rem] md:text-start md:text-5xl">Fill Out The Form</h2>
         <form onSubmit={onSubmit} className='flex flex-col gap-5 items-center justify-center  w-full '>
           <input className='bg--300 rounded w-[90%] p-3 '  type="text" name="name" placeholder='"Your Name"' required/>
-          <input className='bg--300 rounded w-[90%] p-3 ' type="email" name="email" placeholder='Your Email"' required/>
-          <input className='bg--300 rounded w-[90%] p-3 ' type="text" name="Phone" placeholder='Your Phone"' required/>
-          <textarea className='bg--300 rounded  w-[90%] p-3 ' name="message" placeholder='Write Your Message"' required></textarea>
-  
-          <button className=' bg-primary px-7 py-3 rounded-full' type="submit">Submit Form</button>
+          <input className='bg--300 rounded w-[90%] p-3 ' type="email" name="email" placeholder='"Your Email"' required/>
+          <input className='bg--300 rounded w-[90%] p-3 ' type="text" name="Phone" placeholder='"Your Phone"' required/>
+          <textarea className='bg--300 rounded  w-[90%] p-3 ' name="message" placeholder='"Write Your Message"' required></textarea>
+          {/* <textarea className='bg--300 rounded  w-[90%] p-3 ' name="message" placeholder='"Write Your Message"' required></textarea> */}
+         <div className='px-8 text-sm'>
+          <input className='' type="checkbox" id="consent" name="consent" value='By submitting this form and signing up for texts, you consent to receive marketing text messages from The Mobile Tyre Guys at the number provided. Consent is not a condition of purchase. Msg & data rates may apply. Unsubscribe at any time by replying STOP. I have also read and agree to the Privacy Policy'></input>
+         <label for="consent">By submitting this form and signing up for texts, you consent to receive marketing text messages from The Mobile Tyre Guys at the number provided. Consent is not a condition of purchase. Msg & data rates may apply. Unsubscribe at any time by replying STOP. I have also read and agree to the<a href="/privacy">
+            {" "}
+            privacy policy
+          </a></label>
+         
+         </div>
+           <button className=' bg-primary px-7 py-3 rounded-full' type="submit">Submit Form</button>
   
         </form>
         <span className='text-darker px-3'>{result}</span>

@@ -8,7 +8,7 @@ const AboutHero = () => {
     <div className="hero h-fit p-5 bg-gray-700 -24 md:py-24 py-12 items-center justify-center flex flex-col gap-12">
       <div className="flex  w-full justify-center  gap-5 flex-col md:flex-row  items-center">
         <div className="md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5">
-          <h2 className=" text-secondary">Mobile Tire Guys</h2>
+          <h2 className=" text-secondary">The Mobile Tire Guys</h2>
           <h1 className=" text-lighter text-center lg:text-[3em] md:text-start md:text-5xl">
             {" "}
             <span>RELIABLE </span> ROADSIDE ASSISTANCE 24/7

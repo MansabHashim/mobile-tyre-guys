@@ -13,7 +13,7 @@ const ContactHero = () => {
             <span>Get in Touch</span> with Us
           </h1>
           <p className="text-lg">
-            Have questions or need assistance? Our team at Mobile Tire Guys is
+            Have questions or need assistance? Our team at The Mobile Tire Guys is
             here to help! Whether you need immediate roadside support, want to
             schedule a service, or just have a query, feel free to reach out.
             We’re available 24/7 to provide prompt and reliable assistance.

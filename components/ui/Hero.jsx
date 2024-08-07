@@ -12,7 +12,7 @@ const Hero = () => {
        
        
         <div className='zoomIn md:w-[50%] md:items-start mt-12 items-center md:justify-start justify-center flex flex-col gap-5'>
-            <h2 className='typehead text-secondary'>24 HOURS x 7 DAYs A WEEK
+            <h2 className='typehead text-secondary'>24 HOURS x 7 DAYS A WEEK
             </h2>
             <h1 className=' text-lighter text-center lg:text-[4em] md:text-start md:text-5xl'>Emergency <span>Roadside Help</span>, Towing, and Rescue</h1>
             {/* <p className='text-lg'>Always Here to Help When You Need Us Most</p> */}
@@ -52,7 +52,7 @@ const Hero = () => {
     {/* <video src="Tire.mp4"></video> */}
   </div>
 
-        <div className='w-[350px] '><img src="3d.gif" alt="" /></div>
+        <div className='md:w-[350px] w-[300px] '><img src="3d.gif" alt="" /></div>
     </div>
   )
 }

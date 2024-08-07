@@ -8,7 +8,7 @@ const Cta = () => {
       <div className="flex flex-col  w-full justify-center  gap-5  items-center">
         <div className=" flex  flex-col justify-center items-center gap-6">
           <h2 className=" text-secondary underline underline-offset-8 ">
-            Mobile Tire Guys 
+            The Mobile Tire Guys 
           </h2>
           <h1 className=" text-lighter text-center  lg:text-[3em] md:text-5xl">
             {" "}

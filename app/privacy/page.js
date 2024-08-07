@@ -4,7 +4,7 @@ const page = () => {
   return (
   <div className=' bg-gray-700'>
       <div className="md:w-[80%] leading-5  text-lighter flex flex-col gap-5 justify-center mx-auto privacy p-5 py-12">
-      <p> Mobile Tire Guys </p>
+      <p>The Mobile Tire Guys </p>
       {/* <hr className='w-40 '/> */}
       <h1 className='text-4xl'>RELIABLE ROADSIDE ASSISTANCE 24/7 </h1>
       <h2>Who we are</h2>
