@@ -105,7 +105,11 @@ span{
   color: var(--primary);
 }
 
-#learn:hover .learnmore{
+#learn:hover .lrnmre{
+  color: var(--darker);
+}
+
+#learn:hover p{
   color: var(--darker);
 }
 
@@ -125,6 +129,11 @@ span{
 @media screen and (max-width: 768px) {
   h1{
     font-size:30px;
+  }
+  #btn p{
+    color: var(--darker) ;
+    font-size: small;
+    font-weight: 700;
   }
   
 }
