@@ -17,7 +17,14 @@ hr{
   /* margin: 12px auto; */
 }
 
-
+.footerLinks ul li {
+  color:  black;
+  /* background-color: red; */
+}
+.footerLinks ul li:hover {
+  color:  var(--secondary);
+  /* background-color: red; */
+}
 
 body{
  background-color:var(--darker);
@@ -102,8 +109,10 @@ span{
   color: var(--darker);
 }
 
-#btn>.a:hover{
+#btn p{
   color: var(--darker) ;
+  font-size: medium;
+  font-weight: 700;
 }
 
 #btn:hover .btn{
@@ -150,3 +159,27 @@ span{
   opacity: 1;
   }
   } 
+
+
+
+
+  .spin-on-hover {
+    transition: transform 300ms ease-in-out;
+  }
+  .spin-on-hover:hover .icon {
+    animation: spin 1s ease-in-out 1;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .privacy h2{
+    font-size: xx-large;
+    padding: 30px;
+    line-height: 2rem;
+  }
+  .privacy h3{
+    font-size: x-large;
+    padding: 5px;
+  }

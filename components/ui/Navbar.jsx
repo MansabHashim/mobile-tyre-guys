@@ -33,16 +33,16 @@ const Navbar = () => {
         </ul>
         <div
           onClick={() => setmenu(!menu)}
-          className="md:hidden text-lighter  cursor-pointer text-4xl"
+          className="md:hidden text-darker  cursor-pointer text-4xl"
         >
           {" "}
           <FaAlignJustify />
         </div>
         <Btn />
       </div>
-      <div className="md:hidden mb-12">
+      <div className="md:hidden mb-0">
         {menu && (
-          <ul className="mobile-menu flex flex-wrap justify-center items-center  gap-6 bg-primary  rounded-full px-7 py-2">
+          <ul className="mobile-menu flex flex-col absolute z-50 justify-center items-start  gap-5 pb-5  bg-primary  rounde w-full px-12 py-2">
             <Link href="/">
               {" "}
               <li>Home</li>{" "}

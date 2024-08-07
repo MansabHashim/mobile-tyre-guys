@@ -32,17 +32,17 @@ export default function ContactForm() {
 
   
     return (
-      <div className=' flex  flex-col gap-5 justify-center items-center w-[90%] py-8 rounded bg-blue-200'>
+      <div className=' flex  flex-col gap-5 justify-center items-center w-[100%] py-8 rounded-2xl bg-blue-200'>
         <h2 className=" text-darker text-center lg:text-[2rem] md:text-start md:text-5xl">Fill Out The Form</h2>
         <form onSubmit={onSubmit} className='flex flex-col gap-5 items-center justify-center  w-full '>
-          <input className='bg--300 rounded w-[90%] p-3 ' type="text" name="name" placeholder='"Your Name"' required/>
+          <input className='bg--300 rounded w-[90%] p-3 '  type="text" name="name" placeholder='"Your Name"' required/>
           <input className='bg--300 rounded w-[90%] p-3 ' type="email" name="email" placeholder='Your Email"' required/>
           <textarea className='bg--300 rounded  w-[90%] p-3 ' name="message" placeholder='Write Your Message"' required></textarea>
   
           <button className=' bg-primary px-7 py-3 rounded-full' type="submit">Submit Form</button>
   
         </form>
-        <span className='text-darker'>{result}</span>
+        <span className='text-darker px-3'>{result}</span>
   
       </div>
     );

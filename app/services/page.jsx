@@ -3,10 +3,13 @@ import Home from "@/components/Home";
 import Cta from "@/components/ui/Cta";
 import Faq from "@/components/ui/Faq";
 import ActualServicesPage from "@/components/ui/ActualServicesPage";
+import Icons from "@/components/ui/Icons";
 
 const page = () => {
   return (
+
     <div>
+      
       
       <ActualServicesPage
         imgsrc="https://img.freepik.com/free-vector/twenty-four-service_1017-30335.jpg?w=740&t=st=1722543658~exp=1722544258~hmac=cc3d96a38d1179fb3c80753567645c458b7909843494e659e93af9d961fd1883"
@@ -14,9 +17,7 @@ const page = () => {
         heading={" EMERGENCY SERVICE"}
         bg='bg-gray-700'
         order='order-0'
-        para={
-          "From vehicle lockouts to vehicle breakdowns, we assist with everything to keep you on-road."
-        }
+        para= {<Icons/>}
       />
       
 

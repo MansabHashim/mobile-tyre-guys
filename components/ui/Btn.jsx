@@ -1,19 +1,22 @@
 import React from "react";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const Btn = (props) => {
   return (
-    <div
+    <Link
+    href="/"
       id="btn"
-      className="bg-secondary hover:bg-primary hover:text-darker border-secondary border-2 flex items-center gap-2 justify-between btn w-fit rounded-lg px-7 py-3"
+      className="bg-secondary hover:bg-primary hover:text-darker border-secondary border-2 flex items-center gap-0 justify-evenly btn w-[220px] h-16 rounded-lg px-2 py-3"
     >
-      <FaPhoneAlt />{" "}
-      <a href="" className="btn">
-        {" "}
-        909 202 20001
-      </a>
+      <FaPhoneSquareAlt className='text-5xl bg-re-500' />{" "}
+      <div className="btn text-black">
+       
+       <p> 909 202 20001</p>
+       <p> Click To Call Us</p>
+      </div>
       
-    </div>
+    </Link>
   );
 };
 

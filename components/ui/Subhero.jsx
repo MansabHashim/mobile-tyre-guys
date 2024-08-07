@@ -8,7 +8,7 @@ const Subhero = () => {
     <div className="hero bg-gray-700 h-fit p-5 mt-24 md:py-24 py-12 my-5 items-center justify-center flex flex-col gap-12">
       <div className="flex  w-full justify-center  gap-5 flex-col md:flex-row  items-center">
         <div className="md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5">
-          <h2 className=" text-secondary">Mobile Tyre Guys</h2>
+          <h2 className=" text-secondary">Mobile Tire Guys</h2>
           <h1 className=" text-lighter text-center lg:text-[3em] md:text-start md:text-5xl">
             {" "}
             <span>24x7 </span> Towing & Roadside Assistance

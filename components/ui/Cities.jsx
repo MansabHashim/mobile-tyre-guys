@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Cities = () => {
   return (
-    <div className=" bg-gray-700 flex self-center flex-wrap py-12 my-0 gap-12 flex-col items-center justify-center">
+    <div className=" bg-gray-700 flex self-center  flex-wrap py-12 my-0 gap-12 flex-col items-center justify-center">
       <div className=' m-12 w-[80%]'>
-      <h2 className='text-white my-12 leading-[3rem] text-[3rem] text-wrap font-bold'>Where is Mobile Tyre Guys <span className='text-primary'>available?</span></h2>
+      <h2 className='text-white my-12 leading-[3rem] text-[3rem] text-wrap font-bold'>Where is Mobile Tire Guys <span className='text-primary'>available?</span></h2>
       <p>
-        Mobile Tyre Guys is available nationwide across the United States &
+        Mobile Tire Guys is available nationwide across the United States &
         Puerto Rico, providing fast, reliable 24/7/365 emergency roadside
         assistance for car lockout, jump starts, out of gas, tire changes, and
         towing service. Below, explore a small sample of the cities we serve.

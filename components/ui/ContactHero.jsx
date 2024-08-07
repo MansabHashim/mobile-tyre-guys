@@ -4,16 +4,16 @@ import Btn from "./Btn";
 
 const ContactHero = () => {
   return (
-    <div className="hero h-fit p-5 bg-gray-700 -24 md:py-24 py-12 my-5 items-center justify-center flex flex-col gap-12">
+    <div className="hero h-fit p-5 bg-gray-700 -24 md:py-24 py-12 my5 items-center justify-center flex flex-col gap-12">
       <div className="flex  w-full justify-evenly  gap-5 flex-col md:flex-row  items-center">
         <div className="md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5">
-          {/* <h2 className=" text-secondary">Mobile Tyre Guys</h2> */}
+          {/* <h2 className=" text-secondary">Mobile Tire Guys</h2> */}
           <h1 className=" text-lighter text-center lg:text-[3em] md:text-start md:text-5xl">
             {" "}
             <span>Get in Touch</span> with Us
           </h1>
           <p className="text-lg">
-            Have questions or need assistance? Our team at Mobile Tyre Guys is
+            Have questions or need assistance? Our team at Mobile Tire Guys is
             here to help! Whether you need immediate roadside support, want to
             schedule a service, or just have a query, feel free to reach out.
             We’re available 24/7 to provide prompt and reliable assistance.

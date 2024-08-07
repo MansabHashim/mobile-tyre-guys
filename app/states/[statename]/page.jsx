@@ -2,7 +2,9 @@
 import CityMap from '@/components/ui/CityMap';
 import React, { useState, useEffect } from 'react';
 import LearnMore from '@/components/ui/LearnMore';
+import Link from 'next/link';
 import Btn from '@/components/ui/Btn';
+import {states} from '@/data/data'
 import Cities from '@/components/ui/Cities';
 
 const Page = ({params}) => {
@@ -39,30 +41,41 @@ const Page = ({params}) => {
 
   return (
     <div className=' flex  flex-col items-center justify-center p5 gap-5'>
-      <div className='flex gap-5 bg-gray-700 p-12 w-full flex-wrap justify-evenly'>
-      <div className='flex flex-col gap-5 pt-16 w-[40%]'>
+      <div className='flex gap-5 bg-gray-700 p-3 w-full lg:flex-row md:p-8 flex-col  md:justify-evenly'>
+      <div className='flex flex-col gap-5 pt-16 lg:w-[40%]    '>
         <h2 className='text-start font-bold text-5xl my-5'><span className=' text-primary'>{state}</span> Towing & Roadside Assistance </h2>
         <div className=' flex gap-5'>
         <Btn/>
         <LearnMore/>
+        
         </div>
         </div>
-        <div className='w-[40%]'>
+        <div className='lg:w-[40%]'>
         <CityMap className='w-32' cityName={state}/>
         </div>
       </div>
-      <h2 className='text-center font-bold text-5xl my-5'>All the counties in <span className=' text-primary'>{state}</span> state </h2>
-      <div className='grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2 flex-wrap justify-evenly gap-x-5'>
+
+      {data.find(item => item.state === state.replace(/%20/g, ' ')) && (
+  <h2 className='text-center font-bold text-5xl my-5'>
+    All the counties in <span className='text-primary'>{state}</span> state
+  </h2>
+)}
+
+
+
+      <div className='grid lg:grid-cols-5 lg:p-5 md:p-3 p-2 md:grid-cols-4 grid-cols-2 flex-wrap justify-evenly gap-x-5'>
       {data.map((item, index) => (
         (item.state === state.replace(/%20/g, ' ') &&
        <div className=' bg-secondary text-black  gap-3 m- p-5 '>
-         <h2 key={index} className='text-wrap text-black leading-5'>{item.countyName}</h2>
+         <Link key={index} href={`/states/${item.countyName}`} className='text-wrap hover:text-primary text-black leading-5'>{item.countyName}</Link>
          <hr className=' mt-3' />
          {/* <h2 key={index}>{item.state}</h2> */}
        </div>)
+       
       ))}
+      
     </div>
-        <Cities/>
+        {/* <Cities/> */}
     </div>
   );
 };

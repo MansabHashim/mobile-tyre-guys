@@ -8,7 +8,7 @@ import TypEffect from './TypEffect'
 const Hero = () => {
 
   return (          
-    <div  className=' flex hero h-[70vh] my-5 w-full justify-center  gap- flex-col md:flex-row  items-center'>
+    <div  className=' flex hero h-[70vh] my-24 md:m-0 w-full justify-center  gap- flex-col md:flex-row  items-center'>
        
        
         <div className='zoomIn md:w-[50%] md:items-start mt-12 items-center md:justify-start justify-center flex flex-col gap-5'>
@@ -47,7 +47,7 @@ const Hero = () => {
   </div> */}
   {/* <div className='bg-white p- w-52'> <YouTubeEmbed/> </div> */}
   <div> 
-    {/* <video src="tyre.mp4"></video> */}
+    {/* <video src="Tire.mp4"></video> */}
   </div>
 
         <div className='w-[350px] '><img src="3d.gif" alt="" /></div>

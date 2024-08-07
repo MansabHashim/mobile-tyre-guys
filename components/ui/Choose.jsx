@@ -10,19 +10,18 @@ const Choose = () => {
       <div className="md:w-[500px] w-[%] ">
           <img
             className="shadow-lg shadow-gray-500 rounded-[20px]"
-            src="https://cdn.pixabay.com/photo/2020/11/08/11/22/man-5723449_1280.jpg"
+            src="https://img.freepik.com/free-photo/business-man-holding-clipboard-with-why-choose-us-question_23-2148932313.jpg?t=st=1722881427~exp=1722885027~hmac=5ce9d3c8f6bedaeaaecbfffdecc96b346bd809c27da6451f95cfedd036af1462&w=740"
             alt=""
           />
         </div>
         <div className="md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5">
-          <h2 className=" text-secondary">Mobile Tyre Guys</h2>
+          <h2 className=" text-secondary">Mobile Tire Guys</h2>
           <h1 className=" text-lighter text-center lg:text-[3em] md:text-start md:text-5xl">
             {" "}
             Why<span> Choose Us </span>
           </h1>
           <p className="text-lg">
-            If you find yourself in a position where you need to hire a towing
-            and wrecker service, chances are good that the day is not going so
+            If you find yourself in a position where you need roadside assistent service, chances are good that the day is not going so
             well. Whether your vehicle has broken down or you have been involved
             in a car accident, we strive to provide dependable, prompt service
             with a grateful attitude.

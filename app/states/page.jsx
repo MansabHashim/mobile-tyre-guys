@@ -8,7 +8,7 @@ const states = () => {
   return (
     <div>
       <Home/>
-      <Cities/>
+      {/* <Cities/> */}
 
     </div>
   )
