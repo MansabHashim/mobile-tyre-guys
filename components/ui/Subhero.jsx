@@ -11,7 +11,7 @@ const Subhero = () => {
           <h2 className=" text-secondary">Mobile Tire Guys</h2>
           <h1 className=" text-lighter text-center lg:text-[3em] md:text-start md:text-5xl">
             {" "}
-            <span>24x7 </span> Towing & Roadside Assistance
+            <span>24x7 </span> Roadside Assistance
           </h1>
           <p className="text-lg">
             Whether your vehicle has broken down or you have been involved in a

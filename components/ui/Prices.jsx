@@ -7,7 +7,7 @@ const Prices = () => {
     <div className='hero bg-gray-700 h-fit p-5 md:py-24 py-12 my-5 items-center justify-center flex flex-col gap-12'>
     <div  className='flex  w-full justify-center  gap-12 flex-col md:flex-row  items-center'>
       
-          <div className='lg:w-[500px] w-[90%] '><img className='shadow-lg shadow-gray-500 rounded-[20px]' src="/truck.jpg" alt="" /></div>
+          <div className='lg:w-[500px] w-[90%] '><img className='shadow-lg shadow-gray-500 rounded-[20px]' src="https://img.freepik.com/premium-photo/driver-worker-repairs-broken-car-side-road-view-from-man-is-car_186523-657.jpg?w=1060" alt="" /></div>
       
       <div className='md:w-[40%] md:items-start items-center md:justify-start justify-center flex flex-col gap-5'>
           <h2 className=' text-secondary'>Our Prices are

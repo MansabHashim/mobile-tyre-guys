@@ -11,8 +11,9 @@ const Footer = () => {
           reliable roadside assistants.
         </h2>
         <div className='flex  flex-col gap-2 text-black'>
-          <p className='text-black'>123 123 123</p>
-          <p className='text-black'>hello@mobiletyreguys.com</p>
+          <a href='tel:123 123 123' className='text-black'>123 123 123</a>
+          <a href='mailto:hello@mobiletyreguys.com' className='text-black'>hello@mobiletyreguys.com</a>
+          {/* <p className='text-black'>hello@mobiletyreguys.com</p> */}
         </div>
       </div>
       <div className="flex footerLinks  flex-col gap-5 justify-center">
@@ -36,7 +37,7 @@ const Footer = () => {
           </Link>
           <Link href="/privacy">
             {" "}
-            <li>Privacy</li>{" "}
+            <li>Privacy & CCP</li>{" "}
           </Link>
         </ul>
       </div>

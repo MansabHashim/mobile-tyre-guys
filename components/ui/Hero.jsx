@@ -17,6 +17,8 @@ const Hero = () => {
             <h1 className=' text-lighter text-center lg:text-[4em] md:text-start md:text-5xl'>Emergency <span>Roadside Help</span>, Towing, and Rescue</h1>
             {/* <p className='text-lg'>Always Here to Help When You Need Us Most</p> */}
             <TypEffect/>
+            <p>No matter what the problem, we’re here to help.
+            </p>
 
 
 <div>

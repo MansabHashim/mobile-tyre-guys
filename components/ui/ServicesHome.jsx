@@ -13,8 +13,9 @@ const ServicesHome = () => {
       <div className=' flex  flex-col justify-center items-center gap-6'>
           <h2 className=' text-secondary underline underline-offset-8 '>24 HOUR SERVICES
           </h2>
-          <h1 className=' text-lighter text-center  lg:text-[3em] md:text-5xl'> <span>Light & Heavy Duty Towing</span> <br /> 
-          Roadside Assistance & Vehicle Recovery
+          <h1 className=' text-lighter text-center  lg:text-[3em] md:text-5xl'> 
+          Roadside Assistance & Vehicle Recovery  <br /> 
+          <span>Light & Heavy Duty Towing</span>
           </h1>
           <p className='text-lg w-[70%] flex items-center  text-center '>Whether your vehicle has broken down or you have been involved in a car accident, we strive to provide dependable, prompt service with a grateful attitude.      </p>
       
